@@ -23,6 +23,14 @@ import {
   jobit,
   tripguide,
   threejs,
+  portfolio,
+  score,
+  wurm,
+  python,
+  java,
+  Cpp,
+  C,
+  R,
 } from "../assets";
 
 export const navLinks = [
@@ -32,85 +40,43 @@ export const navLinks = [
   },
   {
     id: "work",
-    title: "Work",
-  },
-  {
-    id: "contact",
-    title: "Contact",
+    title: "Projects",
   },
 ];
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
   },
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "Python",
+    icon: python,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "Java",
+    icon: java,
   },
   {
     name: "JavaScript",
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "C++",
+    icon: Cpp,
   },
   {
-    name: "React JS",
-    icon: reactjs,
+    name: "C",
+    icon: C,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
+    name: "R",
+    icon: R,
   },
   {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
@@ -198,67 +164,75 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Portfolio Website",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Create a portfolio website to show my information. The website is responsive",
     tags: [
       {
-        name: "react",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "threejs",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "tailwindcss",
         color: "pink-text-gradient",
       },
+      {
+        name: "vite",
+        color: "text-red-500",
+      },
+      {
+        name: "motion",
+        color: "text-yellow-500"
+      }
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: portfolio,
+    source_code_link: "https://github.com/khangnguyen0810/portfolio-reactjs",
   },
   {
-    name: "Job IT",
+    name: "Retrieve Student Score",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "This project uses python code can retrieve students' score on Ministry of Education's website in 2022. The result is saved to a .csv file. It is no longer usable because the website has been updated",
     tags: [
       {
-        name: "react",
+        name: "selenimum",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "bs4",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "webdriver-manager",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: score,
+    source_code_link: "https://github.com/khangnguyen0810/Retrieve-Student-Score",
   },
   {
-    name: "Trip Guide",
+    name: "Da Ist Der Wurm Drin",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "This is a project from my exchange semester in Germany. It implements real-life German board game Da Ist Der Wurm Drin using Java. Player can play by choosing a worm to bet on winning.",
     tags: [
       {
-        name: "nextjs",
+        name: "java",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "java-swing",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "java-util",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: wurm,
+    source_code_link: "https://github.com/khangnguyen0810/Da-Ist-Der-Wurm-Drin",
   },
 ];
 

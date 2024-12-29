@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -20,6 +20,11 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import python from "./tech/python.png";
+import java from "./tech/java.png";
+import Cpp from "./tech/Cpp.png";
+import C from "./tech/C.png";
+import R from "./tech/R.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -29,6 +34,10 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+
+import portfolio from "./portfolio.png";
+import score from "./score.png";
+import wurm from "./wurm.png";
 
 export {
   logo,
@@ -59,4 +68,12 @@ export {
   carrent,
   jobit,
   tripguide,
+  portfolio,
+  score,
+  wurm,
+  python,
+  java,
+  Cpp,
+  C,
+  R,
 };
